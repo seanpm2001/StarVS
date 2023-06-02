@@ -1,0 +1,29 @@
+# ConfigFireFox.yml
+# StarVS browser config
+# starmark1
+
+# This is a demo configuration file for StarVS, designed to run Firefox
+# This config file is incomplete/not yet functional. It is a demo file.
+starvs-version: "0.0.1"
+browser: "Firefox"
+useragent: "Mozilla/5.0"
+vc: True
+# Version control is on
+bookmarks: [ "tree.json", "list.json", "svn.json" ]
+includeProfiles: True
+profiles: [ "untitled.xml", "untitled2.xml", profileList.json" ]
+generate-stats: True
+# Stats to generate
+bookmarkCount: 0
+folderCount: 0
+deadLinks: 0
+dividerCount: 0
+range8: [ "1970" , "2048" ] # Not going by integers, as there is no way I will make it only go to year 256 CE. There is a different way of doing this, I just don't know it right now.
+range16: [ "1970" , "2048" ] # 11 bit integer, for 16 bit processors, everything else seemed too high, or too low
+range32: [ "1970" , "65536" ] # 16 bit integer, for 32 bit processors
+range64: [ "1970" , "2147483648" ] # 32 bit integer, for 64 bit processors
+range128: [ "0" , "18446744073709551615" ] # 64 bit integer, for 128 bit processors
+range256: [ "0" , "340282366920938463463374607431768211455" ] # 128 bit integer, for 256 bit processors
+profileCount: 0
+
+# File version: 1 (2023, Friday, June 2nd at 4:00 pm PST)
